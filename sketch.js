@@ -72,7 +72,7 @@ function draw() {
   }
 
   //creating particles after frameCount 60
-  if (frameCount % 60 === 0)
+  if (frameCount % 30 === 0)
   {
     particles.push(new Particle(random(width/2-30, width/2+30), 10, 10));
   }
